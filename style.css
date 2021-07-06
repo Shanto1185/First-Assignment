@@ -31,11 +31,11 @@
     text-transform: uppercase;
 }
 
-.container {
+.header1 {
     display: flex; 
     margin-bottom: 50px;
 }
-.content {
+.half-width {
     width: 50%;
 }
 .title{
@@ -56,6 +56,11 @@ span {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+.half-width img {
+    width: 80%;
+    margin-left: 5%;
+}
+
 .link-button {
     text-decoration: none;
     margin-top: 20px;
@@ -65,38 +70,36 @@ span {
     background-image: linear-gradient(to left, tomato, orange);
     color: #fff;
 }
-.content img {
-    width: 80%;
-}
 
-.container2
+
+.about-me
 {
     width: 100%;
-    background-image: url("backgroun-1.png");
+    background-image: url("images/backgroun-1.png");
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
 }
 
-.content2{
+.content{
     width: 50%;
 }
-.content2 img{
+.content img{
     width: 50%;
     margin-left: 10%;
 }
 
-.about-me {
+.details {
     width: 60%;
     margin-top: 15%;
     padding: 20px 40px;
 }
-.about-me h1 {
+.details h1 {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
-.about-me p{
+.details p{
     font-size: 20px;
    font-family: sans-serif;
     margin-top: 20px;
@@ -113,7 +116,7 @@ span {
     color: #fff;
 }
 
-.recipi {
+.my-recipi {
     width: 60%;
     height: 120px;
     margin: 30px 20% 0;
@@ -130,11 +133,11 @@ span {
     text-align: center;
 }
 
-.recipies-item {
+.recipi-title {
     display: flex;
 }
 
-.item {
+.recipies {
     width: 25%;
     height: 400px;
     margin: 0 4% 4%;
@@ -144,12 +147,12 @@ span {
           -10px -10px 15px #e9e3e3;
 }
 
-.item img {
+.recipies img {
     width: 100%;
     border-radius: 20px;
 }
 
-.container3
+.last-header
 {
     width: 92%;
     height: 200px;
@@ -160,6 +163,10 @@ span {
     display: flex;
     align-items: center;
     justify-items: center;
+}
+.last-header h1 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .col {
